@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header img{
+    float :left;
+    width:25%;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.header h1{
+    float:left;
+    background-color:#bc7853;
+    width:74%;
+    height: 200px;
+    padding-top: 80px;
+    padding-left: 180px;
+    border-radius:5px;
+}
+.header::after{
+    content:"";
+    clear:both;
+    display:table;
+
+}
+.nav{
+    
+    background-color: #a75835;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius:10px;
+   
+}
+.nav ul{
+     text-align: center;
+}
+.nav li{
+    float:left;
+    list-style-type: none;
+    
+    
+}
+
+.nav li a{
+    display: inline-block;
+    padding:20px;
+    text-decoration: none;
+    color:black;
+    margin-left: 170px;
+    margin-bottom:6px;
+    margin-top:2px;
+    font-size:20px;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    box-shadow: 5px 3px 5px 3px rgba(49, 22, 22, 0.79);
+  
+    
+}
+.nav li a:hover{
+     background: #620808;
+    transition: background .3s;
+    color:#f0dede;
+   
+}
+.nav::after{
+    content:"";
+    clear:both;
+    display:table;
+
+}
+
+.section{
+    background:#CBA48D;
+    float:left;
+    width:74%;
+    border-radius:5px;
+    height:500px;
+}
+.aside{
+    float:left;
+    width:25.2%;
+    border-radius:5px;
+    background: #ddc1a9;
+    height:500px;
+    margin-left:5px;
+    padding:50px;
+    margin-bottom: 5px;
+
+}
+.aside ul{
+    margin-top: 40px;
+}
+.aside ul li{
+    list-style-type:none;
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.aside h3{
+    text-align:center;
+}
+.aside img{
+    width:150px;
+    border-radius: 50%;
+}
+.section h2{
+    text-align: center;
+    padding-top: 15px;
+}
+.section p{
+    padding:10px;
+    text-align: center;
+    
+}
+.section iframe{
+    border-radius:5px;
+    margin-left: 150px;
+
+    
+}
+
+.aside::after{
+    content:"";
+    clear:both;
+    display:table;}
+
+.footer{
+    clear: both;
+    margin-top: 5px;
+    background:  #CB9473;
+    border-radius: 5px;
+    text-align: center;
+}
+.footer .contact{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.footer .copyright{
+    padding-top: 5px;
+}
